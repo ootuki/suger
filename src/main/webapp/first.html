@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>radio</title>
+<script type="text/javascript">
+
+	function OnButtonClick() {
+		
+       
+        // 120 is a debug purpose
+        let element = document.getElementById("numf");
+        element.value = '120';
+        let element2 = document.getElementById("numb");
+        element2.click();
+	}
+	
+</script>
+</head>
+<body>
+radio Botton53
+
+
+<form action="/suger/ServletSuger" method="get" >
+    <input type="text" name="nyuuryoku" id="numf">please input your suger level in numeric 
+    <p><input type="submit" value="send number" id="numb" style="WIDTH: 200px; HEIGHT: 20px"></p>
+</form>
+
+<input type="button" value="press to input 120" onclick="OnButtonClick();" /> <br />
+
+<img src="./blank.jpg"><br>
+
+</body>
+</html>
